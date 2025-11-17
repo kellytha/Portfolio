@@ -1,0 +1,38 @@
+.contact-links {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #66fcf1;
+  justify-content: center; /* centers icons horizontally */
+  align-items: center;     /* centers icons vertically if needed */
+}
+
+.contact-links a {
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #45e0d0;
+  transform: translateY(-2px);
+}
+
+/* Optional: align text and icons nicely */
+#contact {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #0b0c10;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  color: #66fcf1;
+  margin-bottom: 2rem;
+}
+
+#contact p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}

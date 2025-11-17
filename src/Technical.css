@@ -1,0 +1,62 @@
+.technical {
+  padding: 4rem 6rem;
+  background-color: #0b0c10;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.technical h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #66fcf1;
+  margin-bottom: 3rem;
+}
+
+.tech-category {
+  background-color: #1f2833;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tech-category h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #45e0d0;
+  margin-bottom: 1rem;
+}
+
+.tech-category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tech-category li {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #c5c6c7;
+}
+
+.tech-category li svg {
+  color: #66fcf1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .technical {
+    padding: 2rem;
+  }
+
+  .tech-category {
+    padding: 1.5rem;
+  }
+
+  .technical h2 {
+    font-size: 2rem;
+  }
+}

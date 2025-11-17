@@ -1,0 +1,88 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  background-color: #0b0c10;
+  color: #fff;
+  min-height: 80vh;
+}
+
+/* Left side image */
+.home img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Right side text */
+.text-section {
+  text-align: right;
+}
+
+.kelly {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #66fcf1;
+  margin: 0;
+}
+
+.text-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c5c6c7;
+  margin-top: 0.5rem;
+}
+
+/* 🔘 Button Styling */
+.home-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0b0c10;
+  background-color: #66fcf1;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #45e0d0;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(102, 252, 241, 0.4);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .home img {
+    width: 220px;
+    height: 220px;
+    margin-top: 1.5rem;
+  }
+
+  .text-section {
+    text-align: center;
+  }
+
+  .kelly {
+    font-size: 2rem;
+  }
+
+  .text-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .home-btn {
+    margin-top: 1.5rem;
+  }
+}
