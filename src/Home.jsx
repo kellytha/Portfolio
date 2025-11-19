@@ -1,5 +1,5 @@
 import "../src/Home.css";
-import { Link } from "react-router-dom";
+import CV from "../public/Kelly Thabo Nkohla 1.pdf"
 
 function Home(){
     return(
@@ -9,8 +9,7 @@ function Home(){
             <div className="text-section">
                 <h1 className="kelly">Kelly Thabo Nkohla.</h1>
                 <h2>Frontend-End Developer/Data Analyst</h2>
-                <Link to="/contact"><button className="home-btn">Contact Me</button></Link><br/>
-                <button className="home-btn">See my Resume</button>
+                <a href={ CV }className="home-btn">See my Resume</a>
             </div>
         </section>
         </>
