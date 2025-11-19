@@ -15,6 +15,12 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease; /* for hover effect */
+}
+
+/* Hover effect: enlarge image */
+.home img:hover {
+  transform: scale(1.1);
 }
 
 /* Right side text */
@@ -36,7 +42,7 @@
   margin-top: 0.5rem;
 }
 
-/* 🔘 Button Styling */
+/* Button Styling */
 .home-btn {
   margin-top: 2rem;
   padding: 0.8rem 2rem;
@@ -56,36 +62,6 @@
   box-shadow: 0 4px 10px rgba(102, 252, 241, 0.4);
 }
 
-/* Responsive layout */
-@media (max-width: 768px) {
-  .home {
-    flex-direction: column-reverse;
-    text-align: center;
-    padding: 2rem;
-  }
-
-  .home img {
-    width: 220px;
-    height: 220px;
-    margin-top: 1.5rem;
-  }
-
-  .text-section {
-    text-align: center;
-  }
-
-  .kelly {
-    font-size: 2rem;
-  }
-
-  .text-section h2 {
-    font-size: 1.2rem;
-  }
-
-  .home-btn {
-    margin-top: 1.5rem;
-  }
-}
 /* Tablets (1024px and below) */
 @media (max-width: 1024px) {
   .home {
@@ -106,10 +82,43 @@
   }
 }
 
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: row; /* Image on the left */
+    justify-content: flex-start;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .home img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .text-section {
+    text-align: left;
+    flex: 1;
+  }
+
+  .kelly {
+    font-size: 2rem;
+  }
+
+  .text-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .home-btn {
+    margin-top: 1.5rem;
+  }
+}
+
 /* Small mobile (480px and below) */
 @media (max-width: 480px) {
   .home {
     padding: 1.5rem;
+    gap: 1rem;
   }
 
   .home img {

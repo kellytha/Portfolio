@@ -1,4 +1,5 @@
-import "../src/Home.css"
+import "../src/Home.css";
+import { Link } from "react-router-dom";
 
 function Home(){
     return(
@@ -8,7 +9,7 @@ function Home(){
             <div className="text-section">
                 <h1 className="kelly">Kelly Thabo Nkohla.</h1>
                 <h2>Frontend-End Developer/Data Analyst</h2>
-                <button className="home-btn">Contact Me</button><br/>
+                <Link to="/contact"><button className="home-btn">Contact Me</button></Link><br/>
                 <button className="home-btn">See my Resume</button>
             </div>
         </section>
