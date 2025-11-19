@@ -75,3 +75,88 @@
     padding: 1.5rem;
   }
 }
+/* Tablets - 1024px */
+@media (max-width: 1024px) {
+  .education-section {
+    padding: 3rem 3rem;
+  }
+
+  .education-card {
+    padding: 1.8rem;
+  }
+}
+
+/* Mobile - 768px */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 2rem;
+  }
+
+  .education-section h1 {
+    font-size: 2rem;
+  }
+
+  .education-card {
+    padding: 1.5rem;
+  }
+
+  .education-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .education-card p,
+  .education-card ul li {
+    font-size: 1rem;
+  }
+
+  .certificate-btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}
+
+/* Small Phones - 480px */
+@media (max-width: 480px) {
+  .education-section {
+    padding: 1.5rem;
+  }
+
+  .education-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .education-card {
+    padding: 1.2rem;
+    border-radius: 10px;
+  }
+
+  .education-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .certificate-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Ultra-small devices - 360px */
+@media (max-width: 360px) {
+  .education-section {
+    padding: 1rem;
+  }
+
+  .education-card {
+    padding: 1rem;
+  }
+
+  .education-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .certificate-btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -3,6 +3,9 @@
   background-color: #0b0c10;
   color: #fff;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .technical h2 {
@@ -10,6 +13,12 @@
   font-size: 2.5rem;
   color: #66fcf1;
   margin-bottom: 3rem;
+}
+
+/* Container to stop stretching on huge screens */
+.tech-wrapper {
+  width: 100%;
+  max-width: 900px;
 }
 
 .tech-category {
@@ -46,17 +55,62 @@
   color: #66fcf1;
 }
 
-/* Responsive */
+/* ------------------------------- */
+/* 🔹 Tablets and Small Laptops */
+/* ------------------------------- */
+@media (max-width: 1024px) {
+  .technical {
+    padding: 3rem 3rem;
+  }
+
+  .technical h2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* ------------------------------- */
+/* 🔹 Mobile Phones */
+/* ------------------------------- */
 @media (max-width: 768px) {
   .technical {
     padding: 2rem;
+  }
+
+  .technical h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   .tech-category {
     padding: 1.5rem;
   }
 
+  .tech-category h3 {
+    font-size: 1.2rem;
+  }
+
+  .tech-category li {
+    font-size: 1rem;
+  }
+}
+
+/* ------------------------------- */
+/* 🔹 Small Phones */
+/* ------------------------------- */
+@media (max-width: 480px) {
+  .technical {
+    padding: 1.5rem;
+  }
+
   .technical h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+
+  .tech-category {
+    padding: 1.2rem;
+  }
+
+  .tech-category li {
+    font-size: 0.95rem;
   }
 }

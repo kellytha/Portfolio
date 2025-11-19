@@ -86,3 +86,48 @@
     margin-top: 1.5rem;
   }
 }
+/* Tablets (1024px and below) */
+@media (max-width: 1024px) {
+  .home {
+    padding: 3rem 4rem;
+  }
+
+  .home img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .kelly {
+    font-size: 2.5rem;
+  }
+
+  .text-section h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small mobile (480px and below) */
+@media (max-width: 480px) {
+  .home {
+    padding: 1.5rem;
+  }
+
+  .home img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .kelly {
+    font-size: 1.8rem;
+  }
+
+  .text-section h2 {
+    font-size: 1rem;
+  }
+
+  .home-btn {
+    width: 100%;
+    padding: 0.9rem 0;
+    font-size: 1.1rem;
+  }
+}
