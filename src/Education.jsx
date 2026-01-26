@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap, faLaptopCode, faCertificate } from "@fortawesome/free-solid-svg-icons";
 import "./Education.css";
-import PLP from "../public/PLP Academy.pdf";
+import PLP from "/PLP Academy.pdf";
 
 function Education() {
   return (
@@ -37,7 +37,7 @@ function Education() {
         <a href="https://www.freecodecamp.org/certification/fcc75d0c200-14dd-473e-84f6-ddd920b92925/responsive-web-design" className="certificate-btn"><FontAwesomeIcon icon={faCertificate} /> View Certificate</a>
       </div>
     </section>
-  );
-}
+  )
+};
 
 export default Education;

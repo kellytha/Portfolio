@@ -1,18 +1,22 @@
-import "../src/About.css";
+import "../src/index.css";
+import CV from "/Kelly Thabo Nkohla 1.pdf"
 
 function About() {
     return (
-    <section className="about">
-      <p>
-        I’m a self-taught front-end developer who loves building clean,
-        responsive, and visually engaging websites. What started as curiosity
-        turned into a passion for creating user-friendly digital experiences
-        that not only work well but feel right. I enjoy experimenting with new
-        frameworks, improving my JavaScript logic, and constantly finding better
-        ways to bring designs to life. For me, every project is a chance to
-        learn something new and turn ideas into something real on the web.
+    <section className="flex flex-col justify-center p-10 gap-4 min-h-screen bg-linear-to-r from-[#18181A] to-[#051024] text-white">
+      <h1 className="text-bold font-5xl p-4">About Me</h1>
+      <p className="text-lg">
+        I'm a junior web developer with  astrong foundation in full stack development. 
+        I've completed a full stack web development bootcamp where I gained hands-on experience with technologies like React, JavaScript, Node.js, and more.
       </p>
-      <button>Kelly's CV</button>
+      <p className="text-lg">I enjoy working on projects that involve :</p>
+      <ul>
+        <li>Clean and responsive UI design</li>
+        <li>Logical problem solving </li>
+        <li>Building features that improve user experience </li>
+        <li>Learning new technologies and improving existing skills</li>
+      </ul>
+      <a className="p-5 mt-3 text-black hover:bg-black-200" href={ CV }>Kelly's CV</a>
     </section>
   );
 }
