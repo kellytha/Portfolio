@@ -14,8 +14,6 @@
   color: #66fcf1;
   margin-bottom: 3rem;
 }
-
-/* Container to stop stretching on huge screens */
 .tech-wrapper {
   width: 100%;
   max-width: 900px;
@@ -55,9 +53,6 @@
   color: #66fcf1;
 }
 
-/* ------------------------------- */
-/* 🔹 Tablets and Small Laptops */
-/* ------------------------------- */
 @media (max-width: 1024px) {
   .technical {
     padding: 3rem 3rem;
@@ -68,9 +63,6 @@
   }
 }
 
-/* ------------------------------- */
-/* 🔹 Mobile Phones */
-/* ------------------------------- */
 @media (max-width: 768px) {
   .technical {
     padding: 2rem;
@@ -94,9 +86,6 @@
   }
 }
 
-/* ------------------------------- */
-/* 🔹 Small Phones */
-/* ------------------------------- */
 @media (max-width: 480px) {
   .technical {
     padding: 1.5rem;

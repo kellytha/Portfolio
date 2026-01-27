@@ -13,11 +13,11 @@ import "../src/Technical.css";
 
 function Technical() {
   return (
-    <section className="technical">
-      <h2>Technical Stack</h2>
+    <section className=" p-0 mt-0 bg-linear-to-r from-[#0C0C0F] to-[#030A1C]  min-w-screen ">
+      <h2 className="text-4xl p-4 m-4">Technical Stack</h2>
 
-      <div className="tech-category">
-        <h3><FontAwesomeIcon icon={faHtml5} /> Frontend</h3>
+      <div className="flex flex-col justify-center bg-transparent p-8 border-2 mb-8  shadow-lg rounded-lg w-100 h-50">
+        <h3 className="text-white text-2xl mb-2"><FontAwesomeIcon icon={faHtml5} /> Frontend</h3>
         <ul>
           <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
           <li><FontAwesomeIcon icon={faCss3Alt} /> CSS</li>
@@ -26,8 +26,8 @@ function Technical() {
         </ul>
       </div>
 
-      <div className="tech-category">
-        <h3><FontAwesomeIcon icon={faNodeJs} /> Backend</h3>
+      <div className="flex flex-col justify-center bg-transparent p-8 border-2 mb-8 shadow-lg rounded-lg w-100 h-50">
+        <h3 className="text-white text-2xl mb-2"><FontAwesomeIcon icon={faNodeJs} /> Backend</h3>
         <ul>
           <li><FontAwesomeIcon icon={faNodeJs} /> Node.js (Express)</li>
           <li><FontAwesomeIcon icon={faPython} /> Python (Django)</li>
@@ -35,8 +35,8 @@ function Technical() {
         </ul>
       </div>
 
-      <div className="tech-category">
-        <h3><FontAwesomeIcon icon={faDatabase} /> Databases</h3>
+      <div className="flex flex-col justify-center bg-transparent p-8 border-2 mb-8 shadow-lg rounded-lg w-100 h-50">
+        <h3 className="text-white text-2xl mb-2"><FontAwesomeIcon icon={faDatabase} /> Databases</h3>
         <ul>
           <li><FontAwesomeIcon icon={faDatabase} /> MySQL</li>
           <li><FontAwesomeIcon icon={faDatabase} /> PostgreSQL</li>
@@ -44,8 +44,8 @@ function Technical() {
         </ul>
       </div>
 
-      <div className="tech-category">
-        <h3><FontAwesomeIcon icon={faGit} /> Tools</h3>
+      <div className="flex flex-col justify-center bg-transparent p-8 border-2 mb-8 shadow-lg rounded-lg w-100 h-50">
+        <h3 className="text-white text-2xl mb-2"> Tools</h3>
         <ul>
           <li><FontAwesomeIcon icon={faGit} /> Git</li>
           <li><FontAwesomeIcon icon={faGithub} /> GitHub</li>

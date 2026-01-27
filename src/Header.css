@@ -51,7 +51,7 @@
   border-radius: 2px;
 }
 
-/* Mobile dropdown */
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -81,7 +81,7 @@
   }
 }
 
-/* Tablets (1024px) */
+
 @media (max-width: 1024px) {
   .header-nav {
     padding: 1.2rem 2.5rem;
@@ -100,7 +100,7 @@
   }
 }
 
-/* Small Mobile (480px) */
+
 @media (max-width: 480px) {
   .logo {
     font-size: 1.6rem;
@@ -111,7 +111,7 @@
   }
 }
 
-/* Ultra Small (360px) */
+
 @media (max-width: 360px) {
   .logo {
     font-size: 1.4rem;

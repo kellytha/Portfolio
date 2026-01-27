@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../src/Header";
 import Home from "../src/Home";
 import About from "../src/About";
-import Contact from "../src/Contact";
 import Education from "../src/Education";
 import Technical from "../src/Technical";
 import Footer from "../src/Footer";
@@ -19,7 +18,6 @@ function App() {
             <Home/>
             <About/>
             <Experienceproject/>
-            <Contact />
           </> 
         }/>
         <Route path="/about" element={<About />} />

@@ -94,7 +94,7 @@
   background-color: #45e0d0;
   transform: translateY(-2px);
 }
-/* Tablets - 1024px */
+
 @media (max-width: 1024px) {
   .experience-section {
     padding: 3rem 3rem;
@@ -109,7 +109,7 @@
   }
 }
 
-/* Mobile - 768px */
+
 @media (max-width: 768px) {
   .experience-section {
     padding: 2rem;
@@ -134,7 +134,7 @@
   }
 }
 
-/* Small Phones - 480px */
+
 @media (max-width: 480px) {
   .experience-section h1 {
     font-size: 1.8rem;
@@ -157,7 +157,7 @@
   }
 }
 
-/* Ultra-small - 360px */
+
 @media (max-width: 360px) {
   .experience-section {
     padding: 1.2rem;

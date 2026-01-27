@@ -1,5 +1,4 @@
 import "../src/index.css";
-import CV from "/Kelly Thabo Nkohla 1.pdf"
 
 function Home(){
     return(
@@ -16,7 +15,6 @@ function Home(){
                 <p className="text-white text-lg">
                     I enjoy turning ideas into working products and continuously improving my skills through hands-on projects and real-world development.
                 </p>
-                <a href={ CV }className="home-btn">See my Resume</a>
             </div>
         </section>
         </>

@@ -1,9 +1,9 @@
 import "../src/index.css";
-import CV from "/Kelly Thabo Nkohla 1.pdf"
+import CV from "/Kelly Thabo Nkohla 12.pdf"
 
 function About() {
     return (
-    <section className="flex flex-col justify-center p-10 gap-4 min-h-screen bg-linear-to-r from-[#18181A] to-[#051024] text-white">
+    <section className="flex flex-col justify-center p-10 gap-4 min-h-screen bg-linear-to-r from-[#18181A] to-[#051024] text-white shadow-lg">
       <h1 className="text-bold font-5xl p-4">About Me</h1>
       <p className="text-lg">
         I'm a junior web developer with  astrong foundation in full stack development. 

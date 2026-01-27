@@ -12,7 +12,6 @@
   margin-bottom: 3rem;
 }
 
-/* Card styling */
 .education-card {
   background-color: #1f2833;
   padding: 2rem;
@@ -57,15 +56,14 @@
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* space between icon and text */
+  gap: 0.5rem; 
 }
 
 .certificate-btn svg {
-  margin-right: 0.5rem; /* icon spacing inside button */
+  margin-right: 0.5rem; 
 }
 
 
-/* Responsive */
 @media (max-width: 768px) {
   .education-section {
     padding: 2rem;
@@ -75,7 +73,7 @@
     padding: 1.5rem;
   }
 }
-/* Tablets - 1024px */
+
 @media (max-width: 1024px) {
   .education-section {
     padding: 3rem 3rem;
@@ -86,7 +84,6 @@
   }
 }
 
-/* Mobile - 768px */
 @media (max-width: 768px) {
   .education-section {
     padding: 2rem;
@@ -116,7 +113,7 @@
   }
 }
 
-/* Small Phones - 480px */
+
 @media (max-width: 480px) {
   .education-section {
     padding: 1.5rem;
@@ -141,7 +138,7 @@
   }
 }
 
-/* Ultra-small devices - 360px */
+
 @media (max-width: 360px) {
   .education-section {
     padding: 1rem;

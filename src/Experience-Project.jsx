@@ -1,15 +1,14 @@
-import React from "react";
 import "../src/Experienceproject.css";
-import Ref from "/Refplacer.png";
-import iLas from "/iLas.png";
-import Rockchem from "/Rockchem.png";
-import Chef from "/Chef Thato.png";
+import Ref from "../public/Refplacer.png";
+import iLas from "../public/iLas.png";
+import Rockchem from "../public/Rockchem.png";
+import Chef from "../public/Chef Thato.png";
 
 function Experienceproject() {
   return (
-    <section className=" bg-linear-to-r from-[#0C0C0F] to-[#030A1C] p-16">
+    <section className=" bg-linear-to-r from-[#0C0C0F] to-[#030A1C] p-16 shadow-lg min-w-screen">
       <h1 className="text-linear-to-r from-[#0C0C0F] to-[#030A1C] m-5">Experience / Projects</h1>
-      <div className="flex flex-wrap justify-center  gap-1  projects-container md:flex md:flex-wrap md:justify-center">
+      <div className="flex flex-wrap justify-center gap-1 projects-container md:flex md:flex-wrap md:justify-center">
         <div className="project-card">
           <h2>Ref Allocator</h2>
           <p>

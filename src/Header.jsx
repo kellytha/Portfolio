@@ -11,7 +11,6 @@ function Header() {
     <nav className=" flex  justify-between item-center p-5 bg-black shadow-md sticky top-0 z-10">
       <h1 className="text-linear-to-r from-[#0C0C0F] to-[#030A1C] ">KN</h1>
 
-      {/* Desktop / hidden mobile menu */}
       <ul className={`nav-links flex gap-5 text-linear-to-r from-[#0C0C0F] to-[#030A1C] ${menuOpen ? "open" : ""}`}>
         <li><Link to="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</Link></li>
         <li><Link to="/about" className="nav-link" onClick={() => setMenuOpen(false)}>About</Link></li>
@@ -20,7 +19,7 @@ function Header() {
         <li><Link to="/technical" className="nav-link" onClick={() => setMenuOpen(false)}>Technical</Link></li>
       </ul>
 
-      {/* Hamburger menu icon */}
+
       <div className="hamburger text-linear-to-r from-[#0C0C0F] to-[#030A1C] md:hidden" onClick={toggleMenu}>
         <span></span>
         <span></span>

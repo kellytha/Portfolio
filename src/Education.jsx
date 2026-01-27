@@ -6,7 +6,7 @@ import PLP from "/PLP Academy.pdf";
 
 function Education() {
   return (
-    <section className="education-section">
+    <section className="education-section min-w-screen bg-linear-to-r from-[#0C0C0F] to-[#030A1C] shadow-lg">
       <h1>Education</h1>
 
       <div className="education-card">
