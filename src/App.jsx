@@ -1,34 +1,30 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "../src/Header";
-import Home from "../src/Home";
-import About from "../src/About";
-import Education from "../src/Education";
-import Technical from "../src/Technical";
-import Footer from "../src/Footer";
-import Experienceproject from "../src/Experience-Project";
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import DownloadCvModal from './components/DownloadCvModal';
+import { personalInfo, skills, projects, experience } from './data/portfolioData';
 
-function App() {
+export default function App() {
+  const [isCvModalOpen, setIsCvModalOpen] = useState(false);
+
   return (
-    <Router>
-      <Header /> 
-      <Routes>
-        <Route path="/" 
-          element={
-          <>
-            <Home/>
-            <About/>
-            <Experienceproject/>
-          </> 
-        }/>
-        <Route path="/about" element={<About />} />
-        <Route path="/experience" element={<Experienceproject/>}/>
-        <Route path="/education" element={<Education />} />
-        <Route path="/technical" element={<Technical />} />
-      </Routes>
-      <Footer/>
-    </Router>
+    <div className="min-h-screen bg-[#0b0f19] text-slate-300 antialiased selection:bg-emerald-400 selection:text-slate-900">
+      <Navbar onOpenCvModal={() => setIsCvModalOpen(true)} />
+      <Hero personalInfo={personalInfo} onOpenCvModal={() => setIsCvModalOpen(true)} />
+      <About skills={skills} experience={experience} />
+      <Projects projects={projects} />
+      <Contact personalInfo={personalInfo} />
+      <Footer personalInfo={personalInfo} />
+      
+      <DownloadCvModal
+        isOpen={isCvModalOpen}
+        onClose={() => setIsCvModalOpen(false)}
+        personalInfo={personalInfo}
+      />
+    </div>
   );
 }
-
-export default App;
-
